@@ -48,10 +48,11 @@ span {
     border-left: .5px solid black;
 }
 
-.indexImg {
+#indexImg {
     float: left;
     width: 300px;
     height: 400px;
+    padding-right: 10px;
 }
 
 .clearfix::after {
@@ -123,7 +124,7 @@ form {
 }
 
 .contactBody{
-    padding-bottom: 200px;
+    padding-bottom: 20%;
 }
 
 a:active {
@@ -152,4 +153,10 @@ a:hover{
 
 .center{
     text-align: center;
+}
+
+.fontPColor  {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding-bottom: 3px;
 }
