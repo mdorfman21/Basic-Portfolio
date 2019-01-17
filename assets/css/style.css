@@ -53,6 +53,7 @@ span {
     width: 300px;
     height: 400px;
     padding-right: 10px;
+    padding-top: 25px;
 }
 
 .clearfix::after {
@@ -64,6 +65,8 @@ span {
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    padding: 25px 10px 0px 15px;
+    text-indent: 20px;
 }
 
 .contentBackground {
@@ -81,7 +84,6 @@ html {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -36px;
 }
 
 .push {
@@ -94,6 +96,8 @@ html {
     border-top: 4px solid #4aaaa5;
     text-align: center;
     color: #777777;
+    width: 960px;
+    position: relative;
 }
 
 .contentPadding {
@@ -106,6 +110,7 @@ h2 {
     color: #4aaaa5;
     padding-bottom: 10px;
     border-bottom: 3px solid #666666;
+    font-size: 26px;
 }
 
 form {
@@ -125,6 +130,7 @@ form {
 
 .contactBody{
     padding-bottom: 20%;
+    padding-top: 25px;
 }
 
 a:active {
@@ -159,4 +165,79 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     padding-bottom: 3px;
+}
+
+h1 {
+    font-size: 32px;
+    padding-top: 2px;
+}
+
+#firstInput {
+    margin-top: 15px;
+}
+
+#firstPortfolioImages {
+    margin-top: 10px;
+}
+
+.copyright{
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#projectOne {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 194.5px;
+    top: 203px;
+    font-size: 35px;
+}
+
+#projectTwo {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 468.5px;
+    top: 203px;
+    font-size: 35px;
+}
+
+#projectThree {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 194.5px;
+    top: 203px;
+    font-size: 35px;
+}
+
+#projectFour {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 468.5px;
+    top: 203px;
+    font-size: 35px;
 }
