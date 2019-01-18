@@ -67,6 +67,7 @@ p {
     color: #777777;
     padding: 25px 10px 0px 15px;
     text-indent: 20px;
+    line-height: 1.5;
 }
 
 .contentBackground {
@@ -130,7 +131,6 @@ form {
 
 .contactBody{
     padding-bottom: 20%;
-    padding-top: 25px;
 }
 
 a:active {
@@ -180,7 +180,7 @@ h1 {
     margin-top: 10px;
 }
 
-.copyright{
+.copyright {
     position: relative;
     vertical-align: middle;
     text-align: center;
@@ -240,4 +240,12 @@ h1 {
     left: 468.5px;
     top: 203px;
     font-size: 35px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+input:required {
+    background-color: yellow;
 }
